@@ -68,6 +68,13 @@ a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a
 a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
 NAME Mothers  Street
+ITM 2 4,8
+ITM 2 2,5
+ITM 2 12,12
+ITM 2 12,14
+ITM 2 11,14
+ITM 2 2,14
+ITM 2 9,14
 EXT 15,7 0 1,7
 PAL 0
 
@@ -81,6 +88,7 @@ TIL a
 10000001
 11111111
 NAME block
+WAL true
 
 SPR A
 00000000
@@ -158,8 +166,31 @@ SPR d
 01010010
 01010010
 NAME House
-DLG 5
+DLG 6
 POS 1 8,1
+
+SPR e
+00000000
+00000000
+00000000
+11111100
+00111110
+11111110
+00111100
+00101000
+DLG 6
+POS 1 8,2
+
+SPR f
+00011000
+01111110
+10000001
+10111101
+10000001
+100000011
+10000001
+10011001
+POS 1 1,12
 
 ITM 0
 00000000
@@ -230,6 +261,13 @@ NAME sprite c dialog
 DLG 5
 House
 NAME House dialog
+
+DLG 6
+"""
+Hey you! You're not supposed to be here!
+
+"""
+NAME sprite e dialog
 
 VAR a
 42
@@ -12012,6 +12050,7 @@ CHAR 9835
 011011
 011000
 000000
+</script>
 </script>
 
 </head>
